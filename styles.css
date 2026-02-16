@@ -1,0 +1,149 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 00;
+  font-size: 48px;
+  padding-top: 162px;
+  padding-left: 399px;
+}
+.navigation {
+}
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 00;
+  font-size: 32px;
+  text-align: center;
+  padding-top: 112px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+div {
+  background-color: #eeeff1;
+  height: 720px;
+}
+nav {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-variation-settings: "wdth" 500;
+  font-size: 16px;
+  padding-top: 79px;
+  padding-left: 399px;
+  line-height: 164%;
+  display: flex;
+  gap: 50px;
+}
+.menu {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 00;
+  color: #727272;
+  font-size: 16px;
+  padding-left: 399px;
+  box-sizing: content-box;
+  width: 540px;
+  padding-top: 60px;
+  line-height: 164%;
+}
+.aboutme {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 00;
+  color: #727272;
+  font-size: 16px;
+  line-height: 164%;
+  box-sizing: content-box;
+  width: 540px;
+  margin: 0 auto;
+  text-align: center;
+}
+.blue {
+  background-color: #34547a;
+  height: 250px;
+  margin-top: 100px;
+}
+.projects {
+  color: #ffffff;
+  box-sizing: content-box;
+  width: 141px;
+  padding-left: 409px;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 00;
+}
+img {
+  padding-top: 100px;
+}
+footer {
+  background-color: #34547a;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  height: 151px;
+  padding-top: 50px;
+  padding-left: 406px;
+}
+.work {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 00;
+  color: #727272;
+  font-size: 16px;
+  line-height: 164%;
+  box-sizing: content-box;
+  width: 540px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 52px;
+}
+.workdiv {
+  background-color: #eeeff1;
+  height: 1004px;
+}
+.name {
+  font-size: 21px;
+}
+.workimagecontainer {
+  margin: 0 auto;
+  width: 1100px;
+  height: 600px;
+  background-image: url("./image/Rectangle 5.jpg");
+  background-size: 1100px, 600px;
+}
+.workimage {
+  margin-top: 150px;
+  margin-left: 505px;
+}
+button {
+  background-color: #34547a;
+  color: #ffffff;
+  width: 225px;
+  height: 65px;
+  margin-left: 399px;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 164%;
+  border: none;
+  cursor: pointer;
+}
