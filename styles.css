@@ -1,32 +1,36 @@
 h1 {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 500;
   font-style: normal;
   font-variation-settings: "wdth" 00;
   font-size: 48px;
-  padding-top: 162px;
-  padding-left: 399px;
+  margin-top: 162px;
+  margin-left: 399px;
+  letter-spacing: 0%;
 }
 .navigation {
 }
 h2 {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 500;
   font-style: normal;
   font-variation-settings: "wdth" 00;
   font-size: 32px;
   text-align: center;
   padding-top: 112px;
+  margin: 0;
+  margin-bottom: 50px;
 }
 a {
   color: black;
   text-decoration: none;
 }
-div {
+.mainmenu {
   background-color: #eeeff1;
-  height: 720px;
+  height: 700px;
+  width: 100%;
 }
 nav {
   font-family: "Roboto", sans-serif;
@@ -36,7 +40,7 @@ nav {
   font-variation-settings: "wdth" 500;
   font-size: 16px;
   padding-top: 79px;
-  padding-left: 399px;
+  margin-left: 399px;
   line-height: 164%;
   display: flex;
   gap: 50px;
@@ -52,7 +56,7 @@ nav {
   padding-left: 399px;
   box-sizing: content-box;
   width: 540px;
-  padding-top: 60px;
+  margin-top: 60px;
   line-height: 164%;
 }
 .aboutme {
@@ -69,11 +73,43 @@ nav {
   margin: 0 auto;
   text-align: center;
 }
-.blue {
-  background-color: #34547a;
-  height: 250px;
+.project-container {
   margin-top: 100px;
+  background-color: #34547a;
+  display: flex;
+  justify-content: center;
+  gap: 49px;
+  height: 250px;
 }
+.project-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: white;
+
+  background-color: #34547a;
+}
+.project-text {
+  display: flex;
+  flex-direction: column;
+  background-color: #34547a;
+  gap: 10px;
+}
+.number {
+  font-size: 21px;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-weight: 500;
+}
+.word {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-size: 16px;
+  font-weight: 400;
+}
+
 .projects {
   color: #ffffff;
   box-sizing: content-box;
@@ -84,9 +120,6 @@ nav {
   font-weight: <weight>;
   font-style: normal;
   font-variation-settings: "wdth" 00;
-}
-img {
-  padding-top: 100px;
 }
 footer {
   background-color: #34547a;
@@ -129,7 +162,7 @@ footer {
   background-size: 1100px, 600px;
 }
 .workimage {
-  margin-top: 150px;
+  margin-top: 250px;
   margin-left: 505px;
 }
 button {
@@ -138,6 +171,7 @@ button {
   width: 225px;
   height: 65px;
   margin-left: 399px;
+  margin-top: 65px;
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
