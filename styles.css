@@ -23,17 +23,19 @@ h2 {
   margin: 0;
   margin-bottom: 50px;
 }
-#homelink {
-  color: #34547a;
-}
+
 a {
   color: black;
   text-decoration: none;
+}
+#homelink {
+  color: #34547a;
 }
 a:active {
   color: #34547a;
   text-decoration: none;
 }
+
 .mainmenu-container {
   background-color: #eeeff1;
   height: 700px;
