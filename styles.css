@@ -54,7 +54,7 @@ nav {
   display: flex;
   gap: 50px;
 }
-.menu-item {
+.mainmenu__item {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
 
@@ -91,14 +91,14 @@ nav {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.project-item {
+.project__item {
   display: flex;
   align-items: center;
   gap: 15px;
   color: white;
   background-color: #34547a;
 }
-.project-text {
+.project__item-text {
   display: flex;
   flex-direction: column;
   background-color: #34547a;
@@ -141,7 +141,7 @@ footer {
   padding-top: 50px;
   padding-left: 406px;
 }
-.work {
+.workcontainer__item {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
 
@@ -156,11 +156,11 @@ footer {
   text-align: center;
   margin-bottom: 52px;
 }
-.workdiv {
+.workcontainer {
   background-color: #eeeff1;
   height: 1004px;
 }
-.name {
+.footer__item {
   font-size: 21px;
 }
 .workimagecontainer {
@@ -173,7 +173,7 @@ footer {
   background-size: cover;
   position: relative;
 }
-.workimage {
+.workimage__item {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -253,10 +253,9 @@ button {
     display: flex;
     gap: 10px;
   }
-  .menu-item {
+  .mainmenu__item {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-
     font-style: normal;
     font-variation-settings: "wdth" 00;
     color: #727272;
@@ -270,7 +269,6 @@ button {
   .aboutme {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-
     font-style: normal;
     font-variation-settings: "wdth" 00;
     color: #727272;
@@ -291,14 +289,14 @@ button {
     padding-bottom: 100px;
     flex-wrap: wrap;
   }
-  .project-item {
+  .project__item {
     display: flex;
     align-items: center;
     gap: 15px;
     color: white;
     background-color: #34547a;
   }
-  .project-text {
+  .project__item-text {
     display: flex;
     flex-direction: column;
     background-color: #34547a;
@@ -341,7 +339,7 @@ button {
     padding-top: 50px;
     padding-left: 10vw;
   }
-  .work {
+  .workcontainer__item {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
 
@@ -356,11 +354,11 @@ button {
     text-align: center;
     margin-bottom: 52px;
   }
-  .workdiv {
+  .workcontainer {
     background-color: #eeeff1;
     height: 1004px;
   }
-  .name {
+  .footer__item {
     font-size: 21px;
   }
   .workimagecontainer {
@@ -375,7 +373,7 @@ button {
     position: relative;
     background-position: center;
   }
-  .workimage {
+  .workimage__item {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -456,7 +454,7 @@ button {
     display: flex;
     gap: 30px;
   }
-  .menu-item {
+  .mainmenu__item {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
 
@@ -494,14 +492,14 @@ button {
     padding-bottom: 100px;
     flex-wrap: wrap;
   }
-  .project-item {
+  .project__item {
     display: flex;
     align-items: center;
     gap: 15px;
     color: white;
     background-color: #34547a;
   }
-  .project-text {
+  .project__item-text {
     display: flex;
     flex-direction: column;
     background-color: #34547a;
@@ -544,7 +542,7 @@ button {
     padding-top: 50px;
     padding-left: 20vw;
   }
-  .work {
+  .workcontainer__item {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
 
@@ -559,11 +557,11 @@ button {
     text-align: center;
     margin-bottom: 52px;
   }
-  .workdiv {
+  .workcontainer {
     background-color: #eeeff1;
     height: 1004px;
   }
-  .name {
+  .footer__item {
     font-size: 21px;
   }
   .workimagecontainer {
@@ -578,7 +576,7 @@ button {
     position: relative;
     background-position: center;
   }
-  .workimage {
+  .workimage__item {
     position: absolute;
     left: 50%;
     top: 50%;

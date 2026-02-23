@@ -1,0 +1,57 @@
+@use "mixins" as *;
+h2 {
+  @include roboto(500, 32px);
+  text-align: center;
+  padding-top: 112px;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.aboutme {
+  @include roboto(500, 16px);
+  color: #727272;
+  line-height: 164%;
+  box-sizing: content-box;
+  width: 540px;
+  margin: 0 auto;
+  text-align: center;
+  @media screen and (max-width: 480px) {
+    h2 {
+      @include roboto(500, 32px);
+      text-align: center;
+      padding-top: 112px;
+      margin: 0;
+      margin-bottom: 50px;
+    }
+
+    .aboutme {
+      @include roboto(500, 16px);
+      color: #727272;
+      line-height: 164%;
+      box-sizing: content-box;
+      width: 300px;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+  @media screen and (min-width: 480px) and (max-width: 1110px) {
+    h2 {
+      @include roboto(500, 32px);
+      font-size: 32px;
+      text-align: center;
+      padding-top: 112px;
+      margin: 0;
+      margin-bottom: 50px;
+    }
+
+    .aboutme {
+      @include roboto(500, 16px);
+      color: #727272;
+      line-height: 164%;
+      box-sizing: content-box;
+      width: 300px;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+}

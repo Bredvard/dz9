@@ -1,0 +1,90 @@
+@use "mainmenu";
+@use "project";
+@use "workimage";
+@use "aboutme";
+@use "mixins" as *;
+
+footer {
+  background-color: #34547a;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  height: 151px;
+  padding-top: 50px;
+  padding-left: 406px;
+}
+.footer__item {
+  font-size: 21px;
+}
+
+button {
+  background-color: #34547a;
+  color: #ffffff;
+  width: 225px;
+  height: 65px;
+  margin-left: 399px;
+  margin-top: 65px;
+  @include roboto(500, 16px);
+  line-height: 164%;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  footer {
+    background-color: #34547a;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+    height: 151px;
+    padding-top: 50px;
+    padding-left: 10vw;
+  }
+  .footer__item {
+    font-size: 21px;
+  }
+
+  button {
+    background-color: #34547a;
+    color: #ffffff;
+    width: 225px;
+    height: 65px;
+    margin-left: 8vw;
+    margin-top: 65px;
+    @include roboto(500, 16px);
+    line-height: 164%;
+    border: none;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 1110px) {
+  footer {
+    background-color: #34547a;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    height: 151px;
+    padding-top: 50px;
+    padding-left: 20vw;
+  }
+  .footer__item {
+    font-size: 21px;
+  }
+
+  button {
+    background-color: #34547a;
+    color: #ffffff;
+    width: 225px;
+    height: 65px;
+    margin-left: 20vw;
+    margin-top: 65px;
+    @include roboto(500, 16px);
+    line-height: 164%;
+    border: none;
+    cursor: pointer;
+  }
+}
