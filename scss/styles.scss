@@ -28,7 +28,12 @@ button {
   @include roboto(500, 16px);
   line-height: 164%;
   border: none;
+  transition-duration: 0.21s;
   cursor: pointer;
+}
+button:hover {
+  background-color: #b4d822;
+  transition-duration: 0.21s;
 }
 
 @media screen and (max-width: 480px) {

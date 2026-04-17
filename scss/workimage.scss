@@ -5,8 +5,10 @@
   height: 600px;
   max-width: 1110px;
   max-height: 600px;
-  background-image: url("../image/Rectangle 5.jpg");
+  background-image: url("../image/img.jpg");
   background-size: cover;
+  transition-duration: 0.3s;
+  border-radius: 30px;
   position: relative;
   &__item {
     position: absolute;
@@ -15,7 +17,10 @@
     transform: translate(-50%, -50%);
   }
 }
-
+.workimagecontainer:hover {
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+}
 .workcontainer {
   background-color: #eeeff1;
   height: 1004px;
@@ -52,7 +57,7 @@
     height: 300px;
     max-width: 1110px;
     max-height: 600px;
-    background-image: url("./image/Rectangle 5.jpg");
+    background-image: url("../image/img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -87,7 +92,7 @@
     height: 300px;
     max-width: 1110px;
     max-height: 600px;
-    background-image: url("./image/Rectangle 5.jpg");
+    background-image: url("../image/img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
